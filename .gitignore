@@ -227,3 +227,8 @@ pip-log.txt
 
 #Build output
 *.class
+
+###SublimeText###
+
+# SublimeText project files
+*.sublime-workspace
