@@ -4,7 +4,7 @@ public class Fibonacci{
 
      public static void main(String []args){
     	 
-    	 int start = 10;
+    	 int start = 0;
     	 
     	 try{
     	
