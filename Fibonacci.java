@@ -1,6 +1,12 @@
 public class Fibonacci{
 
      public static void main(String []args){
+         if(args.length  == 0)
+         {
+             System.out.println("입력된 수가 없습니다.\n프로그램을 종료합니다.");
+             return;
+         }
+
          int start = Integer.parseInt(args[0]);
          int fib1 = 0;
          int fib2 = 1;
