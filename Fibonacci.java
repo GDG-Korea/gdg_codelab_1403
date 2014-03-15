@@ -18,15 +18,15 @@ public class Fibonacci{
          }
      }
 
-    public static void isNum(String str){
-        try{
-            BigInteger bInt = new BigInteger(str);
-            return;
-        }
-        catch(NumberFormatException obj){
-            System.out.println("plz only put Number");
-            System.exit(0);
-
-        }
-    }	
+     public static void isNum(String str){
+         try{
+             BigInteger bInt = new BigInteger(str);
+             return;
+         }
+         catch(NumberFormatException obj){
+             System.out.println("plz only put Number");
+             System.exit(0);
+ 
+         }
+     }	
 }
