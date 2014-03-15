@@ -6,8 +6,8 @@ public class Fibonacci{
     	 
     	 int start = 0;
     	 
+    	 
     	 try{
-    	
     		 if(args.length > 0){
     			 start = Integer.parseInt(args[0]);
     		 }
@@ -18,6 +18,8 @@ public class Fibonacci{
 
     	 if(start > 2){
 
+        	 long startTime = System.currentTimeMillis();
+        	 
     		 BigInteger fib1 = new BigInteger("0");
     		 BigInteger fib2 = new BigInteger("1");
     		 for(int i = 0; i <= (start -2); i++) {
@@ -26,6 +28,9 @@ public class Fibonacci{
     			 fib1 = fib2;
     			 fib2 = fib3;
     		 }
+    		 
+    		 long endTime = System.currentTimeMillis();
+    		 System.out.println("Execution time : " + ((endTime - startTime)/1000.0) + "sec" );
     	 }
      }
 }
