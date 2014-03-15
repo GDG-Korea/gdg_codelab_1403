@@ -1,3 +1,7 @@
+/**
+ * 피보나치 수열을 구하는 클래스입니다.
+ * 피보나치 수열이 뭔가요? http://ko.wikipedia.org/wiki/%ED%94%BC%EB%B3%B4%EB%82%98%EC%B9%98_%EC%88%98
+ */
 public class Fibonacci{
 
      public static void main(String []args){
