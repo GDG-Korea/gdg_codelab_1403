@@ -28,7 +28,6 @@ gradle build
 javac Fibonacci.java 2>&1
 java -Xmx128M -Xms16M Fibonacci [:input]
 ```
-=======
 
 ## Coding conventions
 * `tab` 대신 `space` 4개를 사용합니다.
