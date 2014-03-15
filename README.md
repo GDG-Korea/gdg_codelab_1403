@@ -42,10 +42,12 @@ Detail messages
 ....
 ..
 ````
+
 * One line summary : 간단한 한줄 요약 .
  * 예) Update readme.md file.
 * CRLF : 공백 라인
 * Detail messges : 자세한 변경 내용
+<<<<<<< HEAD
 
 ## License
 GDG Codelab is available under the MIT license. See the LICENSE file for more info.
