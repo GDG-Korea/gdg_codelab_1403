@@ -13,15 +13,21 @@ javac Fibonacci.java 2>&1
 java -Xmx128M -Xms16M Fibonacci [:input]
 ```
 
-## Coding convention
-`tab` 대신 `space` 4개를 사용합니다.
+## Coding conventions
+* `tab` 대신 `space` 4개를 사용합니다.
+
 
 ## Commit Message
 되도록이면 commit 메시지는 영어로 작성해주시기 바랍니다.
 ```
-1-line summary
+One line summary
 <CRLF>
-detail messages
+Detail messages
 ....
 ..
 ````
+
+* One line summary : 간단한 한줄 요약 .
+ * 예) Update readme.md file.
+* CRLF : 공백 라인
+* Detail messges : 자세한 변경 내용
