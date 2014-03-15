@@ -18,6 +18,11 @@ F1 = 1, F2 = 1, F3 =  2
 F2 = 1, F3 = 2, F4 =  3
 ```
 
+## How to Gradle Build
+```
+gradle build
+```
+
 ## jvm 사용
 ```sh
 javac Fibonacci.java 2>&1
@@ -42,3 +47,7 @@ Detail messages
  * 예) Update readme.md file.
 * CRLF : 공백 라인
 * Detail messges : 자세한 변경 내용
+<<<<<<< HEAD
+
+## License
+GDG Codelab is available under the MIT license. See the LICENSE file for more info.
