@@ -12,3 +12,16 @@ http://www.compileonline.com/compile_java_online.php
 javac Fibonacci.java 2>&1
 java -Xmx128M -Xms16M Fibonacci [:input]
 ```
+
+## Coding convention
+`tab` 대신 `space` 4개를 사용합니다.
+
+## Commit Message
+되도록이면 commit 메시지는 영어로 작성해주시기 바랍니다.
+```
+1-line summary
+<CRLF>
+detail messages
+....
+..
+````
