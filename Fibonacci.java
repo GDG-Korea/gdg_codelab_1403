@@ -2,7 +2,7 @@ public class Fibonacci{
 
     public static void main(String []args){
         try{
-            int start = Integer.parseInt("2");
+            int start = Integer.parseInt(args);
             double fib1 = 0;
             double fib2 = 1;
             if(start>=2 && start<47) {
