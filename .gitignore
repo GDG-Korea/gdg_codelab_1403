@@ -213,6 +213,12 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+<<<<<<< HEAD
 #Intellij IDEA
 gdg_codelab_1403.imi
 .idea
+=======
+
+#Build output
+*.class
+>>>>>>> 2f7dc647109b929d845fb3b76dee149c7287a2c8
