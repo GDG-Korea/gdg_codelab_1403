@@ -1,14 +1,28 @@
-public class Fibonacci{
+import java.math.BigInteger;
 
+/**
+ * Fibonacci number class
+ * Refer(eng): http://en.wikipedia.org/wiki/Fibonacci_number
+ * Refer(kor): http://ko.wikipedia.org/wiki/%ED%94%BC%EB%B3%B4%EB%82%98%EC%B9%98_%EC%88%98
+ */
+public class Fibonacci{
      public static void main(String []args){
+         if (args.length == 0) {
+             print_usage(Fibonacci.class.getName());
+             return;
+         }
          int start = Integer.parseInt(args[0]);
-         int fib1 = 0;
-         int fib2 = 1;
+         BigInteger fib1 = new BigInteger("0");
+         BigInteger fib2 = new BigInteger("1");
          for(int i = 0; i <= (start -2); i++) {
-             int fib3 = fib1 + fib2;
+             BigInteger fib3 = fib1.add(fib2);
              System.out.println("F"+ i + " = " + fib1 + ", F" + (i+1) + " = " + fib2 + ", F" + (i+2) + " =  " + fib3);
              fib1 = fib2;
              fib2 = fib3;
          }
+     }
+     public static void print_usage(String progname) {
+         String usage = String.format("usage) java %s <number>\n   eg) java %s 5", progname, progname) ;
+         System.out.println(usage);
      }
 }
