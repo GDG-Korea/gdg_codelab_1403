@@ -1,9 +1,20 @@
 ﻿import java.math.BigInteger;
 
-/**
- * 피보나치 수열을 구하는 클래스입니다.
- * 피보나치 수열이 뭔가요? http://ko.wikipedia.org/wiki/%ED%94%BC%EB%B3%B4%EB%82%98%EC%B9%98_%EC%88%98
- */
+/*************************************************************************
+ *  Compilation:  javac Fibonacci.java
+ *  Execution:    java Fibonacci N
+ *
+ *  Computes and prints the first N Fibonacci numbers.
+ *  http://en.wikipedia.org/wiki/Fibonacci_number
+ *
+ *  java Fibonacci 4
+ *  F0 = 0, F1 = 1, F2 =  1
+ *  F1 = 1, F2 = 1, F3 =  2
+ *  F2 = 1, F3 = 2, F4 =  3
+ *
+ *
+ *************************************************************************/
+
 public class Fibonacci{
      public static void main(String []args){
          if (args.length == 0) {
