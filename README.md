@@ -23,3 +23,5 @@ F2 = 1, F3 = 2, F4 =  3
 javac Fibonacci.java 2>&1
 java -Xmx128M -Xms16M Fibonacci [:input]
 ```
+## License
+GDG Codelab is available under the MIT license. See the LICENSE file for more info.
