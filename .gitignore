@@ -15,6 +15,7 @@ local.properties
 .classpath
 .settings/
 .loadpath
+.gradle/
 
 # External tool builders
 .externalToolBuilders/
@@ -226,3 +227,8 @@ pip-log.txt
 
 #Build output
 *.class
+
+###SublimeText###
+
+# SublimeText project files
+*.sublime-workspace
