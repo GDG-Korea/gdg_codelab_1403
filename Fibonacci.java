@@ -1,5 +1,4 @@
 public class Fibonacci{
-
     public static void main(String []args){
         try{
             int start = Integer.parseInt(args);
@@ -20,7 +19,7 @@ public class Fibonacci{
                 throw new Exception();
             }
         } catch(Exception e) {
-
+            System.out.println("입력범위");
         }
     }
     
