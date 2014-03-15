@@ -18,6 +18,11 @@ F1 = 1, F2 = 1, F3 =  2
 F2 = 1, F3 = 2, F4 =  3
 ```
 
+## How to Gradle Build
+```
+gradle build
+```
+
 ## jvm 사용
 ```sh
 javac Fibonacci.java 2>&1
