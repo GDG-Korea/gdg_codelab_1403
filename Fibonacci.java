@@ -1,7 +1,10 @@
 public class Fibonacci{
 
      public static void main(String []args){
-         int start = Integer.parseInt(args[0]);
+		
+		 isNum(args[0]);
+ 
+		 int start = Integer.parseInt(args[0]);
          int fib1 = 0;
          int fib2 = 1;
          for(int i = 0; i <= (start -2); i++) {
@@ -11,4 +14,15 @@ public class Fibonacci{
              fib2 = fib3;
          }
      }
+
+
+	 public static void isNum(String str){
+	 	if(str.length() < 1){
+			System.out.println("숫자를 입력하세요!");
+			System.exit(0);
+		}
+		return;
+	 }	
+
+
 }
