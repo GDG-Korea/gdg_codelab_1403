@@ -5,7 +5,6 @@ if(len(sys.argv)<2):
 	exit()
 else :
 	start = int(sys.argv[1])
-	print start
 
 fib1 = 0
 fib2 = 1
