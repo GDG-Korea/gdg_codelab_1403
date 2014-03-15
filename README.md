@@ -14,11 +14,11 @@ java -Xmx128M -Xms16M Fibonacci [:input]
 ```
 
 ## Coding conventions
-* `tab` 대신 `space` 4개를 사용합니다.
-
+* `tab` 대신 `space` 5개를 사용합니다.
 
 ## Commit Message
-되도록이면 commit 메시지는 영어로 작성해주시기 바랍니다.
+**DO NOT WRITE COMMENT AS A KOREAN**
+- 반드시 commit 메시지는 영어로 작성해주시기 바랍니다.
 ```
 One line summary
 <CRLF>
